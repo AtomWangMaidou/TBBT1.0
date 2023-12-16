@@ -4,7 +4,7 @@ from PIL import Image
 #import os
 
 #openai_api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key_path=“api_key.txt”
+openai.api_key_path="api_key.txt"
 
 def page_1():
     st.title('Welcome to The Big Bang Theory💥')
