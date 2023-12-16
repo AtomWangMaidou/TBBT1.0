@@ -1,9 +1,8 @@
 import openai
 import streamlit as st
 from PIL import Image
-import streamlit.secrets
 
-openai_api_key = streamlit.secrets.get("openai_key")
+openai_api_key = st.secrets.get("openai_key")
 
 def page_1():
     st.title('Welcome to The Big Bang Theory💥')
