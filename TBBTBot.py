@@ -26,8 +26,8 @@ def page_1():
         msg = response.choices[0].message
         st.session_state.YOUARESHELDON.append(msg)
         for i in range(int((len(st.session_state.YOUARESHELDON)-1)/2)):
-            st.chat_message("user", avatar='https://raw.githubusercontent.com/AtomWangMaidou/Rare_variant_analysis/main/Nerd.png').write(st.session_state.YOUARESHELDON[i*2+1]["content"])
-            st.chat_message("assistant", avatar='https://raw.githubusercontent.com/AtomWangMaidou/Rare_variant_analysis/main/Sheldon.png').write(st.session_state.YOUARESHELDON[i*2+2]["content"])
+            st.chat_message("user", avatar='https://raw.githubusercontent.com/AtomWangMaidou/TBBT1.0/main/Nerd.png').write(st.session_state.YOUARESHELDON[i*2+1]["content"])
+            st.chat_message("assistant", avatar='https://raw.githubusercontent.com/AtomWangMaidou/TBBT1.0/main/Sheldon.png').write(st.session_state.YOUARESHELDON[i*2+2]["content"])
 
 def page_2():
     st.title('Welcome to The Big Bang Theory💥')
@@ -50,8 +50,8 @@ def page_2():
         msg = response.choices[0].message
         st.session_state.YOUAREPENNY.append(msg)
         for i in range(int((len(st.session_state.YOUAREPENNY)-1)/2)):
-            st.chat_message("user", avatar='https://raw.githubusercontent.com/AtomWangMaidou/Rare_variant_analysis/main/Nerd.png').write(st.session_state.YOUAREPENNY[i*2+1]["content"])
-            st.chat_message("assistant", avatar='https://raw.githubusercontent.com/AtomWangMaidou/Rare_variant_analysis/main/Penny.jpg').write(st.session_state.YOUAREPENNY[i*2+2]["content"])
+            st.chat_message("user", avatar='https://raw.githubusercontent.com/AtomWangMaidou/TBBT1.0/main/Nerd.png').write(st.session_state.YOUAREPENNY[i*2+1]["content"])
+            st.chat_message("assistant", avatar='https://raw.githubusercontent.com/AtomWangMaidou/TBBT1.0/main/Penny.jpg').write(st.session_state.YOUAREPENNY[i*2+2]["content"])
 
 
 def page_3():
@@ -74,8 +74,8 @@ def page_3():
         msg = response.choices[0].message
         st.session_state.YOUARELEONARD.append(msg)
         for i in range(int((len(st.session_state.YOUARELEONARD)-1)/2)):
-            st.chat_message("user", avatar='https://raw.githubusercontent.com/AtomWangMaidou/Rare_variant_analysis/main/Nerd.png').write(st.session_state.YOUARELEONARD[i*2+1]["content"])
-            st.chat_message("assistant", avatar='https://raw.githubusercontent.com/AtomWangMaidou/Rare_variant_analysis/main/Leonard.jpeg').write(st.session_state.YOUARELEONARD[i*2+2]["content"])
+            st.chat_message("user", avatar='https://raw.githubusercontent.com/AtomWangMaidou/TBBT1.0/main/Nerd.png').write(st.session_state.YOUARELEONARD[i*2+1]["content"])
+            st.chat_message("assistant", avatar='https://raw.githubusercontent.com/AtomWangMaidou/TBBT1.0/main/Leonard.jpeg').write(st.session_state.YOUARELEONARD[i*2+2]["content"])
 
 def page_4():
     st.title('Welcome to The Big Bang Theory💥')
@@ -97,8 +97,8 @@ def page_4():
         msg = response.choices[0].message
         st.session_state.YOUAREAMY.append(msg)
         for i in range(int((len(st.session_state.YOUAREAMY)-1)/2)):
-            st.chat_message("user", avatar='https://raw.githubusercontent.com/AtomWangMaidou/Rare_variant_analysis/main/Nerd.png').write(st.session_state.YOUAREAMY[i*2+1]["content"])
-            st.chat_message("assistant", avatar='https://raw.githubusercontent.com/AtomWangMaidou/Rare_variant_analysis/main/Amy.jpeg').write(st.session_state.YOUAREAMY[i*2+2]["content"])
+            st.chat_message("user", avatar='https://raw.githubusercontent.com/AtomWangMaidou/TBBT1.0/main/Nerd.png').write(st.session_state.YOUAREAMY[i*2+1]["content"])
+            st.chat_message("assistant", avatar='https://raw.githubusercontent.com/AtomWangMaidou/TBBT1.0/main/Amy.jpeg').write(st.session_state.YOUAREAMY[i*2+2]["content"])
 
 
 PAGES = {"Sheldon": page_1, "Penny": page_2, "Leonard": page_3, "Amy": page_4}
