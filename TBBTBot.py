@@ -1,9 +1,10 @@
 import openai
 import streamlit as st
 from PIL import Image
-import os
+#import os
 
-openai_api_key = os.getenv("OPENAI_API_KEY")
+#openai_api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key_path=“api_key.txt”
 
 def page_1():
     st.title('Welcome to The Big Bang Theory💥')
@@ -20,7 +21,7 @@ def page_1():
         ]
 
     if prompt1 := st.chat_input():
-        openai.api_key = openai_api_key
+        #openai.api_key = openai_api_key
         st.session_state.YOUARESHELDON.append({"role": "user", "content": prompt1})
         response = openai.ChatCompletion.create(model ='gpt-3.5-turbo', messages=st.session_state.YOUARESHELDON)
         msg = response.choices[0].message
@@ -44,7 +45,7 @@ def page_2():
         ]
 
     if prompt1 := st.chat_input():
-        openai.api_key = openai_api_key
+        #openai.api_key = openai_api_key
         st.session_state.YOUAREPENNY.append({"role": "user", "content": prompt1})
         response = openai.ChatCompletion.create(model ='gpt-3.5-turbo', messages=st.session_state.YOUAREPENNY)
         msg = response.choices[0].message
@@ -68,7 +69,7 @@ def page_3():
         ]
 
     if prompt1 := st.chat_input():
-        openai.api_key = openai_api_key
+        #openai.api_key = openai_api_key
         st.session_state.YOUARELEONARD.append({"role": "user", "content": prompt1})
         response = openai.ChatCompletion.create(model ='gpt-3.5-turbo', messages=st.session_state.YOUARELEONARD)
         msg = response.choices[0].message
@@ -91,7 +92,7 @@ def page_4():
         ]
 
     if prompt1 := st.chat_input():
-        openai.api_key = openai_api_key
+        #openai.api_key = openai_api_key
         st.session_state.YOUAREAMY.append({"role": "user", "content": prompt1})
         response = openai.ChatCompletion.create(model ='gpt-3.5-turbo', messages=st.session_state.YOUAREAMY)
         msg = response.choices[0].message
