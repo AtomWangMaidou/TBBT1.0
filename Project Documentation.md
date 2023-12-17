@@ -1,4 +1,4 @@
-# 💥TBBT1.0
+# 💥TBBT1.0 Project Documentation
 Chat with characters from The Big Bang Theory! Sheldon, Leonard, Penny and Amy are currently available.  
 <br>
 GitHub Repository: https://github.com/AtomWangMaidou/TBBT1.0.git
