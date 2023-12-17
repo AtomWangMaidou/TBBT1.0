@@ -1,5 +1,16 @@
 # 💥TBBT1.0 Project Documentation
-Chat with characters from The Big Bang Theory! Sheldon, Leonard, Penny and Amy are currently available.  
+
+Welcome to "The Big Bang Theory 1.0!"
+<br>
+This project is a creative adaptation of the 12-season sitcom, "The Big Bang Theory." It takes the form of a chatbot that enables users to interact with key characters from the show using text-based communication. Presently, the characters available for interaction include Sheldon, Leonard, Penny, and Amy. 
+<br>
+At its core, this project aims to pioneer the concept of "believable characters" within AI. The goal is to imbue these characters with seemingly autonomous behavior and rich personalities. This pursuit is particularly pertinent in gaming, where non-player characters (NPCs) play a crucial role in enhancing the gaming experience. Leveraging AI, especially the capabilities of the Large Language Model, allows these characters to express themselves and act in a manner that feels genuinely autonomous.
+<br>
+Interestingly, my idea aligns with a recent AI experiment widely known as the "Stanford Smallville," jointly undertaken by Stanford University and a team of Google researchers. Their project involved the creation of 25 AI-powered NPCs within a simulated landscape reminiscent of games like The SIMs. These NPCs were given a living environment, complete with workplaces, schools, and other facilities, resulting in the organic development of individual storylines and even romances. Their AI model, nevertheless, in nothing more than the publically available ChatGPT 3.5.
+<br>
+Initially conceived as an interactive narrative with preset storylines for the characters, "The Big Bang Theory 1.0" faced challenges in integrating multiple characters within the chatbot for organic conversational interaction. This posed difficulties in allowing the storyline to naturally progress within the TBBT universe. However, the aim remains achievable once a solution is found to accommodate multiple non-user agents within one single chatbot. Consequently, this project will undergo continuous refinement and evolution, denoted by its current version as 1.0.  
+<br>
+Stay tuned for further developments as this chatbot evolves into a more immersive and interactive platform for fans to engage with their favorite characters from "The Big Bang Theory."  
 <br>
 GitHub Repository: https://github.com/AtomWangMaidou/TBBT1.0.git
 
