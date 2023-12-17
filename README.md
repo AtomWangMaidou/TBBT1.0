@@ -11,6 +11,7 @@ Chat with characters from The Big Bang Theory! Sheldon, Leonard, Penny and Amy a
 ## Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://talktotbbt10.streamlit.app/)
+
 Kindly be aware that the demo app has a limit of 200 messages per day. If you plan to extensively explore the app, please do so on a local device. Detailed instructions are provided below.
 
 ## Conversation Tips and Tricks
